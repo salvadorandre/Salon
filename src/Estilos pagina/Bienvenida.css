@@ -1,0 +1,40 @@
+.Bienvenida { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Bienvenida .Presentacion { 
+    gap: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Bienvenida .Presentacion button { 
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    background: pink;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 1s ease-in;
+}
+
+.Bienvenida .Presentacion button:hover { 
+    transform: translateX(5px);
+    filter: drop-shadow(0 0 15px pink);
+}
+
+.Bienvenida .Imagen { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Bienvenida .Imagen img { 
+    width: 450px;
+}

@@ -1,0 +1,33 @@
+.Menu-principal { 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Menu-principal .titulo-logo { 
+    display: flex;
+    align-items: center;
+
+}
+
+.Menu-principal .titulo-logo img { 
+    width: 150px;
+}
+
+.Menu-principal .menu ul {
+    display: flex;
+    list-style: none;
+    gap: 55px;
+}
+
+.Menu-principal .menu ul li a { 
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: #000;
+    transition: 1s ease;
+}
+
+.Menu-principal .menu ul li a:hover { 
+    text-decoration: underline;
+}
